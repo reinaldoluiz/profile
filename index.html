@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reinaldo Luiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form_style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+<body>
+  <menu>
+    <a href="#summary">Info</a>
+    <a href="#favorite-movies">Movies</a>
+    <a href="#help">Info</a>
+  </menu>
+  <main>
+    <div id="summary"><h2>Reinaldo Luiz</h2>
+      <img src="images/reinaldo.png" alt="">
+    </div>
+
+    <div id="favorite-movies">
+      <h2>My favorite movies</h2>
+      <div class='movie'>
+        <h2>Into the Wild </h2>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+        <p>After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. </p>
+      </div>
+
+      <div class='movie'>
+        <h2>OLDBOY</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPa-DQaDMlEY9eb2S3mFt_o95_wQMrcI6es1LdWxFAjDxGz9u" alt="">
+        <p>The film follows the story of Oh Dae-su, who is imprisoned in a cell which resembles a hotel room for 15 years without knowing the identity of his captor or his captor's motives. </p>
+      </div>
+
+      <div class='movie'>
+        <h2>FIGHT CLUB</h2>
+        <img src="https://is3-ssl.mzstatic.com/image/thumb/Video118/v4/61/0e/de/610edec2-ce46-b2d8-a559-3d9278a00cd1/source/1200x630bb.jpg" alt="">
+        <p>An insomniac office worker, looking for a way to change his life, crosses paths with a devil-may-care soapmaker, forming an underground fight club that evolves into something much, much more.</p>
+      </div>
+    </div>
+    <div id="help"><h2>some help section</h2>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer><strong>Reinaldo Luiz - 2018</strong></footer>
+</body>
+</html>
